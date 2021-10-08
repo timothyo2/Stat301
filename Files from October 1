@@ -1,0 +1,19 @@
+# Author: Timothy Outing II, Date: October 1 2021, Purpose: Calculate discrete probability for sample data
+
+db <- dbinom(4,size=12,prob=0.2)
+# 0.1328756
+
+pb <- pbinom(4,size=12,prob=0.2)
+# [1] 0.9274445
+
+print(db)
+print(pb)
+
+# Calculate Poisson probability, lower tail
+pp <- ppois(16, lambda=12)
+
+# Calculate Poisson probability, upper tail
+pp2 <- ppois(16, lambda=12, lower=FALSE)
+
+print(pp)
+print(pp2)
