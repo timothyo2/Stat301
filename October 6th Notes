@@ -1,0 +1,6 @@
+# Author: Timothy Outing II, Date: Oct 6 2021, Purpose: Calculate the probability distribution values
+
+# Calculate Continuous Uniform distribution probability 
+data1 <- runif(10, min=1, max=3)
+
+print(data1)
